@@ -1,7 +1,9 @@
-# Interactive-Music
+# Computer music
 This repository is made for the purpose of collecting inspirations, libraries and references about interactive music and computer music composition. Feel free to PR if you come across interesting tools, libraries or projects that are not here.
 
-### Learning:
+### Books:
+|Topic||
+
 #### Csound: [Floss Manual](http://floss.booktype.pro/csound/preface/), [Csound Manual](http://csound.github.io/docs/manual/index.html), [A Beginner’s Guide to Csound](http://blogs.stlawu.edu/cwatts/files/2009/02/csoundguide.pdf), [Inside Csound](http://www.zedde.com/pdf/inside_csound_.pdf), [Csound on embedded systems](http://www.csounds.com/journal/issue18/beagle_pi.html)
 
 ### Frameworks, libraries and tools:
@@ -23,7 +25,6 @@ This repository is made for the purpose of collecting inspirations, libraries an
 |[ChucK](http://chuck.cs.princeton.edu/)|Strongly-timed, Concurrent, and On-the-fly Music Programming Language|
 |[RTcmix](http://rtcmix.org/)|A real-time software "language" for doing digital sound synthesis and signal-processing|
 |[SuperCollider](http://supercollider.github.io/)|SuperCollider is a platform for audio synthesis and algorithmic composition|
-|[SonicPi](http://sonic-pi.net/)|The Live Coding Music Synth for Everyone|
 |[Cecilia](http://ajaxsoundstudio.com/software/cecilia/)|Cecilia is an audio signal processing environment aimed at sound designers|
 |[PureData](https://puredata.info/)|Pure Data is an open source visual programming language for multimedia|
 |[AudioKit](https://github.com/AudioKit/AudioKit)|AudioKit is an audio synthesis, processing, and analysis platform for iOS, macOS, and tvOS|
@@ -46,8 +47,15 @@ This repository is made for the purpose of collecting inspirations, libraries an
 
 |Analysis and MIR||
 |---|---|
-|[Librosa](https://github.com/librosa/librosa)|Python library for audio and music analysis|
+|[LibROSA](https://github.com/librosa/librosa)|Python library for audio and music analysis|
 |[Essentia](http://essentia.upf.edu/home)|Essentia is an open-source C++ library for audio analysis and audio-based music information retrieval|
 |[Spear](http://www.klingbeil.com/spear/)|An application for audio analysis, editing and synthesis|
 |[Clubber.js](https://github.com/wizgrav/clubber)|Application of music theory in audio reactive visualizations|
 |[The Snail](http://www.ircamlab.com/products/p2242-The-Snail/)|A very high-precision frequency-domain analyzer that delivers an easy to understand representation of sounds|
+|[pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis)|A Python library covering a wide range of audio analysis tasks|
+|[Pyo](http://ajaxsoundstudio.com/software/pyo/)|A robust Python module, written in C, for music synthesis and a variety of DSP tasks|
+
+|Live Coding||
+|---|---|
+|[FoxDot](http://foxdot.org/)|Live Coding Music with Python & SuperCollider|
+|[SonicPi](http://sonic-pi.net/)|The Live Coding Music Synth for Everyone|
