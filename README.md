@@ -1,10 +1,20 @@
 # Computer music
 This repository is made for the purpose of collecting inspirations, libraries and references about interactive music and computer music composition. Feel free to PR if you come across interesting tools, libraries or projects that are not here.
 
-### Books:
-|Topic||
-
-#### Csound: [Floss Manual](http://floss.booktype.pro/csound/preface/), [Csound Manual](http://csound.github.io/docs/manual/index.html), [A Beginner’s Guide to Csound](http://blogs.stlawu.edu/cwatts/files/2009/02/csoundguide.pdf), [Inside Csound](http://www.zedde.com/pdf/inside_csound_.pdf), [Csound on embedded systems](http://www.csounds.com/journal/issue18/beagle_pi.html)
+### Books and manuals:
+|Topic|Title|
+|---|---|
+|Csound|[Floss Manual](http://floss.booktype.pro/csound/preface/)|
+|Csound|[Csound Manual](http://csound.github.io/docs/manual/index.html)|
+|Csound|[A Beginner’s Guide to Csound](http://blogs.stlawu.edu/cwatts/files/2009/02/csoundguide.pdf)|
+|Csound|[Inside Csound](http://www.zedde.com/pdf/inside_csound_.pdf)|
+|Csound|[Csound on embedded systems](http://www.csounds.com/journal/issue18/beagle_pi.html)|
+|ChucK|[Programming for Musicians and Digital Artists: Creating music with ChucK](https://www.amazon.com/Programming-Musicians-Digital-Artists-Creating/dp/1617291706/)|
+|SuperCollider|[The SuperCollider Book](http://supercolliderbook.net/)|
+|Music Information Retrieval + Applications|[Fundamentals of Music Processing](http://www.springer.com/us/book/9783319219448)|
+|DSP + Applications|[A Digital Signal Processing Primer: With Applications to Digital Audio and Computer Music](https://www.amazon.com/gp/product/0805316841/ref=ox_sc_sfl_title_9?ie=UTF8&psc=1&smid=ATVPDKIKX0DER)|
+|Music Synthesis|[The Audio Programming Book](https://www.amazon.com/Audio-Programming-Book-MIT-Press/dp/0262014467/ref=pd_sim_14_4?_encoding=UTF8&psc=1&refRID=WX7S9DW3CAQZ1YJQ1HES)
+|AI + Music Synthesis|*[pre-order]* [Constrained Markov Sequence Generation: Applications to Music and Text (Computational Synthesis and Creative Systems)](https://www.amazon.com/gp/product/3319434969/ref=ox_sc_sfl_title_18?ie=UTF8&psc=1&smid=ATVPDKIKX0DER)
 
 ### Frameworks, libraries and tools:
 |Web Audio||
@@ -19,20 +29,32 @@ This repository is made for the purpose of collecting inspirations, libraries an
 |[Tuna](https://github.com/Theodeus/tuna)|An audio effects library for the Web Audio API|
 |[SoundJS](http://createjs.com/soundjs)|A Javascript library to make working with audio a breeze|
 
-|Native||
+
+|Audio Engines||
 |---|---|
 |[Csound](http://csound.github.io/)|Csound is a sound and music computing system|
-|[ChucK](http://chuck.cs.princeton.edu/)|Strongly-timed, Concurrent, and On-the-fly Music Programming Language|
-|[RTcmix](http://rtcmix.org/)|A real-time software "language" for doing digital sound synthesis and signal-processing|
 |[SuperCollider](http://supercollider.github.io/)|SuperCollider is a platform for audio synthesis and algorithmic composition|
-|[Cecilia](http://ajaxsoundstudio.com/software/cecilia/)|Cecilia is an audio signal processing environment aimed at sound designers|
-|[PureData](https://puredata.info/)|Pure Data is an open source visual programming language for multimedia|
+|[ChucK](http://chuck.cs.princeton.edu/)|Strongly-timed, Concurrent, and On-the-fly Music Programming Language|
+
+
+|Native||
+|---|---|
+|[RTcmix](http://rtcmix.org/)|A real-time software "language" for doing digital sound synthesis and signal-processing|
 |[AudioKit](https://github.com/AudioKit/AudioKit)|AudioKit is an audio synthesis, processing, and analysis platform for iOS, macOS, and tvOS|
+|[CoreAutio](https://developer.apple.com/library/content/documentation/MusicAudio/Conceptual/CoreAudioOverview/Introduction/Introduction.html)|Core Audio provides software interfaces for implementing audio features in applications you create for iOS and OS X|
 |[Maximilian](https://github.com/micknoise/Maximilian)|A cross platform audio synthesis and signal processing library written in C++ / [ofxMaxim](https://github.com/falcon4ever/ofxMaxim) for openFrameworks|
 |[jMusic](http://explodingart.com/jmusic/)|Designed to provide composers and software developers with a library of compositional and audio processing tools|
 |[Faust](http://faust.grame.fr/)|A functional programming language specifically designed for real-time signal processing and synthesis|
 |[CLAM](http://clam-project.org/)|C++ Library for Audio and Music|
 |[STK](https://ccrma.stanford.edu/software/stk/)|A set of open source audio signal processing and algorithmic synthesis classes written in the C++|
+
+
+|Graphical Interfaces||
+|---|---|
+|[PureData](https://puredata.info/)|Pure Data is an open source visual programming language for multimedia|
+|[Cecilia](http://ajaxsoundstudio.com/software/cecilia/)|Cecilia is an audio signal processing environment aimed at sound designers|
+|[Soundgrain](http://ajaxsoundstudio.com/software/soundgrain/)|Soundgrain is a graphical interface where users can draw and edit trajectories to control granular sound synthesis|
+
 
 |Game Engines||
 |---|---|
@@ -40,12 +62,14 @@ This repository is made for the purpose of collecting inspirations, libraries an
 |[libPD for Unity3D](https://github.com/patricksebastien/libpd4unity)|libpd (pure data) with unity 4.x|
 |[Csound Unity3D](http://rorywalsh.github.io/CsoundUnity/)|CsoundUnity is a fully integrated audio middleware for the Unity(3D) game engine based in C#.|
 
+
 |Hardware based||
 |---|---|
 |[Zynthian](http://zynthian.org/)|An Open Platform for Sound Synthesis based on Raspberry Pi|
 |[Owl](https://hoxtonowl.com/)|Open source, programmable audio platform made for musicians, hackers and programmers alike|
 
-|Analysis and MIR||
+
+|Analysis and Music Information Retrieval||
 |---|---|
 |[LibROSA](https://github.com/librosa/librosa)|Python library for audio and music analysis|
 |[Essentia](http://essentia.upf.edu/home)|Essentia is an open-source C++ library for audio analysis and audio-based music information retrieval|
@@ -55,7 +79,9 @@ This repository is made for the purpose of collecting inspirations, libraries an
 |[pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis)|A Python library covering a wide range of audio analysis tasks|
 |[Pyo](http://ajaxsoundstudio.com/software/pyo/)|A robust Python module, written in C, for music synthesis and a variety of DSP tasks|
 
+
 |Live Coding||
 |---|---|
 |[FoxDot](http://foxdot.org/)|Live Coding Music with Python & SuperCollider|
 |[SonicPi](http://sonic-pi.net/)|The Live Coding Music Synth for Everyone|
+|[TidalCycles](https://tidalcycles.org/)|A Haskell based language for live coding patterns|
