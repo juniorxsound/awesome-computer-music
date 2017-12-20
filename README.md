@@ -1,4 +1,6 @@
 # Computer music
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 This repository is made for the purpose of collecting inspirations, libraries and references about interactive music and computer music composition. Feel free to PR if you come across interesting tools, libraries or projects that are not here.
 
 ### Books and manuals:
