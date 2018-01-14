@@ -80,6 +80,7 @@ This repository is made for the purpose of collecting inspirations, libraries an
 |[The Snail](http://www.ircamlab.com/products/p2242-The-Snail/)|A very high-precision frequency-domain analyzer that delivers an easy to understand representation of sounds|
 |[pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis)|A Python library covering a wide range of audio analysis tasks|
 |[Pyo](http://ajaxsoundstudio.com/software/pyo/)|A robust Python module, written in C, for music synthesis and a variety of DSP tasks|
+|[PyMIR](https://github.com/jsawruk/pymir)|A Python library for common tasks in Music Information Retrieval (MIR)|
 
 
 |Live Coding||
