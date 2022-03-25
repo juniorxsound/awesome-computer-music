@@ -30,6 +30,7 @@ This repository is made for the purpose of collecting inspirations, libraries an
 |[Omnitone](https://github.com/GoogleChrome/omnitone)|Spatial Audio Rendering on the web|
 |[Tuna](https://github.com/Theodeus/tuna)|An audio effects library for the Web Audio API|
 |[SoundJS](http://createjs.com/soundjs)|A Javascript library to make working with audio a breeze|
+|[JJazzLab-X](https://github.com/jjazzboss/JJazzLab-X)|A complete Midi-based framework for backings track generation|
 
 
 |Audio Engines||
