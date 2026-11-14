@@ -88,3 +88,4 @@ This repository is made for the purpose of collecting inspirations, libraries an
 |[FoxDot](http://foxdot.org/)|Live Coding Music with Python & SuperCollider|
 |[SonicPi](http://sonic-pi.net/)|The Live Coding Music Synth for Everyone|
 |[TidalCycles](https://tidalcycles.org/)|A Haskell based language for live coding patterns|
+- [FM-1 Emulator](https://fm1-emulator.atst.tools/) - Free browser emulator for the M-VAVE FM-1 pocket synth; plays stock and 200+ community firmwares
