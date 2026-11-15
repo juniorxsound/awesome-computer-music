@@ -30,6 +30,7 @@ This repository is made for the purpose of collecting inspirations, libraries an
 |[Omnitone](https://github.com/GoogleChrome/omnitone)|Spatial Audio Rendering on the web|
 |[Tuna](https://github.com/Theodeus/tuna)|An audio effects library for the Web Audio API|
 |[SoundJS](http://createjs.com/soundjs)|A Javascript library to make working with audio a breeze|
+|[No Stairs Please MCP](https://nostairsplease.com/mcp)|Free remote MCP server and live-music venue directory across the US and Canada for touring musicians and AI assistants|
 
 
 |Audio Engines||
